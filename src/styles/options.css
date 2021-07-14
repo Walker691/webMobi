@@ -1,0 +1,253 @@
+.options-cntr{
+    display : flex;
+    margin-bottom : 20px;
+    padding-right : 200px;
+}
+.moderation-cntr-right {
+    margin-left: auto;
+    padding-right : 80px;
+}
+#l1 {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    margin: 0;
+  }
+  #labell1 {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 20px;
+    border: 1px solid #eeeeee;
+    background-color: #d7d8da;
+    border-radius: 15px;
+    transition: background 0.1s linear;
+    cursor: pointer;
+  }
+  #labell1:after {
+    content: "";
+    position: absolute;
+    left: 1px;
+    top: 2px;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    transition: left 0.1s ease-out;
+  }
+  #l1:checked ~ #labell1 {
+    background-color: #46e38b;
+  }
+  #l1:checked ~ #labell1:after {
+    left: 28px;
+  }
+
+  #l2 {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    margin: 0;
+  }
+  #labell2 {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 20px;
+    border: 1px solid #eeeeee;
+    background-color: #d7d8da;
+    border-radius: 15px;
+    transition: background 0.1s linear;
+    cursor: pointer;
+  }
+  #labell2:after {
+    content: "";
+    position: absolute;
+    left: 1px;
+    top: 2px;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    transition: left 0.1s ease-out;
+  }
+  #l2:checked ~ #labell2 {
+    background-color: #46e38b;
+  }
+  #l2:checked ~ #labell2:after {
+    left: 28px;
+  }
+
+  #l3 {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    margin: 0;
+  }
+  #labell3 {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 20px;
+    border: 1px solid #eeeeee;
+    background-color: #d7d8da;
+    border-radius: 15px;
+    transition: background 0.1s linear;
+    cursor: pointer;
+  }
+  #labell3:after {
+    content: "";
+    position: absolute;
+    left: 1px;
+    top: 2px;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    transition: left 0.1s ease-out;
+  }
+  #l3:checked ~ #labell3 {
+    background-color: #46e38b;
+  }
+  #l3:checked ~ #labell3:after {
+    left: 28px;
+  }
+
+  #l4 {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    margin: 0;
+  }
+  #labell4 {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 20px;
+    border: 1px solid #eeeeee;
+    background-color: #d7d8da;
+    border-radius: 15px;
+    transition: background 0.1s linear;
+    cursor: pointer;
+  }
+  #labell4:after {
+    content: "";
+    position: absolute;
+    left: 1px;
+    top: 2px;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    transition: left 0.1s ease-out;
+  }
+  #l4:checked ~ #labell4 {
+    background-color: #46e38b;
+  }
+  #l4:checked ~ #labell4:after {
+    left: 28px;
+  }
+
+  #l5 {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    margin: 0;
+  }
+  #labell5 {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 20px;
+    border: 1px solid #eeeeee;
+    background-color: #d7d8da;
+    border-radius: 15px;
+    transition: background 0.1s linear;
+    cursor: pointer;
+  }
+  #labell5:after {
+    content: "";
+    position: absolute;
+    left: 1px;
+    top: 2px;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    transition: left 0.1s ease-out;
+  }
+  #l5:checked ~ #labell5 {
+    background-color: #46e38b;
+  }
+  #l5:checked ~ #labell5:after {
+    left: 28px;
+  }
+
+  #l6 {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    margin: 0;
+  }
+  #labell6 {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 20px;
+    border: 1px solid #eeeeee;
+    background-color: #d7d8da;
+    border-radius: 15px;
+    transition: background 0.1s linear;
+    cursor: pointer;
+  }
+  #labell6:after {
+    content: "";
+    position: absolute;
+    left: 1px;
+    top: 2px;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    transition: left 0.1s ease-out;
+  }
+  #l6:checked ~ #labell6 {
+    background-color: #46e38b;
+  }
+  #l6:checked ~ #labell6:after {
+    left: 28px;
+  }
+
+  #l7 {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    margin: 0;
+  }
+  #labell7 {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 20px;
+    border: 1px solid #eeeeee;
+    background-color: #d7d8da;
+    border-radius: 15px;
+    transition: background 0.1s linear;
+    cursor: pointer;
+  }
+  #labell7:after {
+    content: "";
+    position: absolute;
+    left: 1px;
+    top: 2px;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    transition: left 0.1s ease-out;
+  }
+  #l7:checked ~ #labell7 {
+    background-color: #46e38b;
+  }
+  #l7:checked ~ #labell7:after {
+    left: 28px;
+  }
